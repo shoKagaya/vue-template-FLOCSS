@@ -1,0 +1,90 @@
+// *************************************
+//
+//   Base
+//   -> Base-level tags (body, p, etc.)
+//
+// *************************************
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: $base-background;
+  color: $base-color;
+  font-family: $base-fontFamily;
+  font-size: $baseFont-size;
+  line-height: $base-lineHeight;
+}
+// -------------------------------------
+//   Block Content
+// -------------------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+// -------------------------------------
+//   Inline Content
+// -------------------------------------
+
+a {
+  color: $base-link-color;
+  font-weight: normal;
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:visited {
+    color: $base-link-color;
+    text-decoration: none;
+  }
+}
+
+img {
+  vertical-align: bottom;
+}
+
+input,
+label,
+select,
+textarea {
+  vertical-align: middle;
+}
+
+button {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+select {
+  appearance: none;
+  background: none transparent;
+  border: 0;
+  border-radius: 0;
+  box-sizing: content-box;
+  color: inherit;
+  font-size: inherit;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  vertical-align: middle;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
