@@ -1,8 +1,8 @@
 .c-pageTitle {
   background-color: #fff;
   color: #00ab4d;
+  font-family: $base-fontFamily-MPLUS;
   font-size: 1.6rem;
-  font-weight: bold;
   line-height: 1;
   padding: 13px 0;
   text-align: center;
@@ -10,13 +10,11 @@
 
 .c-sectionTitle {
   color: #00ab4d;
+  font-family: $base-fontFamily-montserrat;
   font-size: 1.5rem;
-  font-weight: bold;
   margin-bottom: 20px;
   position: relative;
   text-align: center;
-
-  @include font-montserrat();
 
   &::before {
     background-color: #00ab4d;
@@ -39,12 +37,4 @@
     transform: translate(0, -50%);
     width: 32%;
   }
-}
-
-.c-font--MPLUS {
-  @include font-MPLUS();
-}
-
-.c-font--montserrat {
-  @include font-montserrat();
 }

@@ -1,4 +1,4 @@
-.mod-loader {
+.c-loader {
   align-items: center;
   background: rgba(0, 0, 0, 0.7);
   bottom: 0;
@@ -21,7 +21,7 @@
   }
 }
 
-.mod-loader__inner {
+.c-loader__inner {
   animation: load .6s infinite linear;
   border-radius: 50%;
   color: #fff;
