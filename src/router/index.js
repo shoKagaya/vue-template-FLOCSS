@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import SegmentForm from '../pages/template'
+import template from '../pages/template'
+import bingo from '../pages/bingo'
 
 Vue.use(Router)
 
@@ -10,7 +11,12 @@ export default new Router({
     {
       path: '/template/',
       name: 'template',
-      component: SegmentForm
+      component: template
+    },
+    {
+      path: '/bingo/',
+      name: 'bingo',
+      component: bingo
     }
   ]
 })

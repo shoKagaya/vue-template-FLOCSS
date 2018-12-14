@@ -3,6 +3,18 @@
   padding: 30px 38px 23px;
 }
 
-.p-award__content {
+.p-award__listItem {
+  background: url(~@/assets/img/award__listItem.svg) no-repeat;
+  background-size: 26px 16px;
+  color: #7a7a7a;
   font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  padding-left: 33px;
+
+  &.p-award__listItem--clear {
+    background: url(~@/assets/img/award__listItem--clear.svg) no-repeat;
+    color: #00ab4d;
+    font-weight: bold;
+  }
 }
